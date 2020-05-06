@@ -12,7 +12,7 @@
 </form>
 
 <?php
-    if (isset($_POST['stones']) && ($_POST['beatles'])) {
+    if (isset($_REQUEST['stones']) && ($_REQUEST['beatles'])) {
         $x = $_POST['stones'];
         $y = $_POST['beatles'];
         list ($left_space, $right_space) = findSpace ($x, $y);
