@@ -1,6 +1,7 @@
 <?php
 
-    function findSpace ($a, $b) {
+    function findSpace ($a, $b) 
+    {
         $space = array ($a);
         for ($i = 0; $i < $b; $i++)  {
             $max_space = max($space);
